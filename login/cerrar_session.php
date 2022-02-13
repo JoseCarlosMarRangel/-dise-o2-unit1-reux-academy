@@ -19,7 +19,7 @@ session_destroy();
     <p>
 
     <h1>Session Cerrada, hasta la proxima</h1>
-    <a href="login.php">acceder</a>
+    <a href="../index.php">regresar</a>
 
     </p>
 </body>

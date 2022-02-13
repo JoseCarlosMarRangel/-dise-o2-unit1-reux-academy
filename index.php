@@ -1,12 +1,3 @@
-<?php
-
-//*Incluir el archivo abrir session
-//require 'login/conexion.php';
-require 'login/abrir_session.php';
-//echo 'Conexión exitosa';
-
-?>
-
 <!DOCTYPE html>
 <!--
 	Cosmix by TEMPLATE STOCK
@@ -76,15 +67,24 @@ require 'login/abrir_session.php';
                             <li><a class="scroll" href="#team">Team</a></li>
                             <li><a class="scroll" href="#blog">Blog</a></li>
                             <li><a class="scroll" href="#contact">Contact</a></li>
-                            <li><a class="scroll" href="#sesion">
-                                    <?php
+                            <?php
 
-                                    if (isset($_SESSION['usuario'])) {
-                                        echo '<a href="login/cerrar_session.php">cerrar_session</a> ';
-                                        echo "<p> usuario: " . $_SESSION['usuario'] . "</p>";
-                                    }
-                                    ?>
-                                </a></li>
+                            session_start();
+                            if (!isset($_SESSION['usuario'])) {
+                                echo '<li><a class="scroll" href="login/login.php">Login</a></li>';
+                            } else {
+                                echo '<li><a class="scroll" href="login/cerrar_session.php">Logout</a>' . "<p> usuario: " . $_SESSION['usuario'] . "</p>" . '</li>';
+                            }
+
+                            include 'login/conexion.php';
+                            $datos = retornar_datos_usuario($_SESSION['usuario'], $conexion);
+                            if ($datos === 'administrador') {
+                                echo '<li><a class="scroll" href="asistentes.php">Admin</a></li>';
+                            }
+
+                            ?>
+
+
                         </ul>
                     </div>
                     <!-- /.navbar-collapse -->
