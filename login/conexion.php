@@ -2,8 +2,8 @@
 
 $bd = 'prueba';
 $servidor = 'localhost';
-$usuario = 'ghost';
-$contrasena = '123';
+$usuario = 'ghost'; //$usuario = 'ghost';
+$contrasena = '123';//$contrasena = '123';
 
 //*Creamos la conexión a la base de datos
 $conexion = mysqli_connect($servidor, $usuario, $contrasena, $bd);
@@ -31,6 +31,40 @@ function valida_usuario_bd($usuario, $contrasena, $conexion)
         return false;
     } else {
         return true;
+    }
+};
+
+function valida_usuario_regs($usuario, $conexion)
+{
+    $query = "SELECT * FROM usuarios WHERE usuario = '$usuario'";
+    //var_dump($query);
+    $resultado = mysqli_query($conexion, $query) or die('Consulta fallida');
+    $fila = $resultado->fetch_assoc();
+    /*if($fila["rol"] === "administrador")
+    {
+        //echo "es administrador";
+    }*/
+    if (mysqli_num_rows($resultado) == 0) {
+        return false;
+    } else {
+        return true;
+    }
+};
+
+//ingresar usuario en la base de datos
+function registrar_usuario_bd($usuario, $contrasena, $conexion)
+{
+
+    $crypt = md5($contrasena);
+    $query = "INSERT INTO usuarios (usuario, contrasena, rol) VALUES ('$usuario', '$crypt', 'asistente') ";
+    //echo $query;
+    //var_dump($query);
+    $resultado = mysqli_query($conexion, $query) or die('Consulta fallida');
+    
+    if ($resultado) {
+        echo "<p class='alerta'> Se registro correctamente </p>";
+    } else {
+        echo "<p class='alerta'> No se pudo ingresar al usuario </p>";
     }
 };
 
