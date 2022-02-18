@@ -20,6 +20,8 @@ if (isset($_POST['aceptar'])) {
     }
 }
 
+
+                    
 ?>
 
 <!DOCTYPE html>
@@ -70,6 +72,7 @@ if (isset($_POST['aceptar'])) {
                         }
                     
                     ?>
+
                 </form>
             </div>
 
