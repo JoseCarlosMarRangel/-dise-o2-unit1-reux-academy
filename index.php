@@ -67,24 +67,6 @@
                             <li><a class="scroll" href="#team">Team</a></li>
                             <li><a class="scroll" href="#blog">Blog</a></li>
                             <li><a class="scroll" href="#contact">Contact</a></li>
-                            <?php
-
-                            session_start();
-                            if (!isset($_SESSION['usuario'])) {
-                                echo '<li><a class="scroll" href="login/login.php">Login</a></li>';
-                            } else {
-                                echo '<li><a class="scroll" href="login/cerrar_session.php">Logout</a>' . "<p> usuario: " . $_SESSION['usuario'] . "</p>" . '</li>';
-                            }
-
-                            include 'login/conexion.php';
-                            $datos = retornar_datos_usuario($_SESSION['usuario'], $conexion);
-                            if ($datos === 'administrador') {
-                                echo '<li><a class="scroll" href="asistentes.php">Admin</a></li>';
-                            }
-
-                            ?>
-
-
                         </ul>
                     </div>
                     <!-- /.navbar-collapse -->
