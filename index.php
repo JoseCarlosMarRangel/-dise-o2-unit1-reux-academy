@@ -12,7 +12,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>Cosmix Free HTML5 Responsive Template | Template Stock</title>
+    <title>Roux Academy</title>
     <!--Bootstrap-->
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
     <!--Stylesheets-->
@@ -59,14 +59,11 @@
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav">
                             <li class="active"><a class="scroll" href="#menu">Home</a></li>
-                            <li><a class="scroll" href="#about">About</a></li>
-                            <li><a class="scroll" href="#service">Service</a></li>
-                            <li><a class="scroll" href="#features">Features</a></li>
-                            <li><a class="scroll" href="#portfolio">Portfolio</a></li>
-                            <li><a class="scroll" href="#pricing">Pricing</a></li>
-                            <li><a class="scroll" href="#team">Team</a></li>
-                            <li><a class="scroll" href="#blog">Blog</a></li>
-                            <li><a class="scroll" href="#contact">Contact</a></li>
+                            <li><a class="scroll" href="#about">Artists</a></li>
+                            <li><a class="scroll" href="#service">Schedule</a></li>
+                            <li><a class="scroll" href="#features">Venue/traveler</a></li>
+                            <li><a class="scroll" href="#portfolio">Register</a></li>
+                         
                             <?php
 
                             session_start();
@@ -97,41 +94,23 @@
     <section id="slider">
         <div id="home-carousel" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
-                <div class="item active" style="background-image:url(images/Slider/01.jpg)">
+                <div class="item active" style="background-image:url(images/Slider/art01.jpg)">
                     <div class="carousel-caption container">
                         <div class="row">
                             <div class="col-md-7 col-sm-12 col-xs-12">
-                                <h1>We Are Cosmix</h1>
-                                <h2>Creative Themes</h2>
-                                <p>Cosmix – A One Page Parallax, HTML5 and Responsive Template suitable for any creative
-                                    business agency. Multiple pages also included in this theme with lots of CSS and
-                                    JQuery animations</p>
+                                <h1>Featured Artists</h1>
+                                <p>The Roux Academy selects approximately 200 distinct pieces of contemporary art for display in their collective exhibit. Nine individuals are granted his or her own exhibit hall to display entire collections or themed pieces. Each Featured Artist has an opportunity to speak at the conference to share his or her vision, perspective, and techniques with conference attendees.</p>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="item" style="background-image:url(images/Slider/02.jpg)">
+
+                <div class="item" style="background-image:url(images/Slider/art01.jpg)">
                     <div class="carousel-caption container">
                         <div class="row">
                             <div class="col-md-7 col-sm-12 col-xs-12">
-                                <h1>We Are Cosmix</h1>
-                                <h2>Creative Themes</h2>
-                                <p>Cosmix – A One Page Parallax, HTML5 and Responsive Template suitable for any creative
-                                    business agency. Multiple pages layouts also in this theme with lots of CSS and
-                                    JQuery animations</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="item" style="background-image:url(images/Slider/03.jpg)">
-                    <div class="carousel-caption container">
-                        <div class="row">
-                            <div class="col-md-7 col-sm-12 col-xs-12">
-                                <h1>We Are Cosmix</h1>
-                                <h2>Creative Themes</h2>
-                                <p>Cosmix – A One Page Parallax, HTML5 and Responsive Template suitable for any creative
-                                    business agency. Multiple page also included in this theme with lots of CSS and
-                                    JQuery animations</p>
+                                <h1>About the Event</h1>
+                                <p>The Roux Academy’s annual conference and exhibit is designed to foster a close-knit relationship amongst artists at various universities around the world. But sign up early, as this not-to-miss conference sells out quickly, and the waiting list is long. In addition, art students are encouraged to send in works from their school portfolios to be considered for hanging in the CAC exhibit halls, as well as to be selected as a Featured Artist.</p>
                             </div>
                         </div>
                     </div>
@@ -148,48 +127,49 @@
         <div class="container">
             <div class="col-md-8 col-md-offset-2">
                 <div class="heading">
-                    <h2>ABOUT <span>US</span></h2>
+                    <h2>Roux Conference</h2>
                     <div class="line"></div>
-                    <p><span><strong>L</strong></span>orem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                        eiusmod tempor incididunt ut
-                        et dolore magna aliqua. Ut enim ad minim veniam</p>
+                    <p><span><strong>J</strong></span>oin over 500 hundred of the most creative and brilliant minds of art colleges all around the world for five days of lectures by world-renowned art scholars and artists, and seven days and nights of gallery exhibits featuring the best in contemporary art, including painting, sculpture, and more, in the beautiful halls of Hotel Contempo in the heart of Seattle.</p>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-12 ab-sec">
                     <div class="col-md-6">
-                        <h3 class="wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms"><span>W</span>e Are
-                            Creative And Awesome</h3>
-                        <p><span><strong>L</strong></span>orem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                            do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                            nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                            irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
-                            anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                            tempor.Lorem Ipsum is simply dummy text of the printing and typesetting industry. book. </p>
+                        <h3 class="wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms"><span>W</span>Featured Artists</h3>
+                        <p><span><strong>L</strong></span>The Roux Academy selects approximately 200 distinct pieces of contemporary art for display in their collective exhibit. Nine individuals are granted his or her own exhibit hall to display entire collections or themed pieces. Each Featured Artist has an opportunity to speak at the conference to share his or her vision, perspective, and techniques with conference attendees.</p>
+
+                        <div class="artistgroup clearfix">
+                            <ul class="clearfix">
+                                <li><img src="images/artists/Barot_Bellingham_tn.jpg" alt="Barot Bellingham"></li>
+                                <li><img src="images/artists/Constance_Smith_tn.jpg" alt="Constance Smith"></li>
+                                <li><img src="images/artists/Hassum_Harrod_tn.jpg" alt="Hassum Harrod"></li>
+                                <li><img src="images/artists/Hillary_Goldwynn_tn.jpg" alt="Hillary Goldwynn"></li>
+                                <li><img src="images/artists/Jennifer_Jerome_tn.jpg" alt="Jennifer Jerome"></li>
+                                <li><img src="images/artists/Jonathan_Ferrar_tn.jpg" alt="Jonathan Ferrar"></li>
+                                <li><img src="images/artists/LaVonne_LaRue_tn.jpg" alt="LaVonne LaRue"></li>
+                                <li><img src="images/artists/Riley_Rewington_tn.jpg" alt="Riley Rewington"></li>
+                                <li><img src="images/artists/Xhou_Ta_tn.jpg" alt="Xhou Ta"></li>
+                            </ul>
+                            
+                        </div>
+
                     </div>
                     <div class="col-md-6 ab-sec-img wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms"><img
-                            src="images/Aboutus/01.jpg" alt=""> </div>
+                            src="images/Aboutus/iphone.png" alt=""> </div>
                 </div>
             </div>
         </div>
     </section>
     <!--About-Sec-2-Start-->
     <div class="bg-sec">
-        <div class="container">
-            <div class="col-md-10 col-sm-10 col-xs-8">
-                <h3>Premium quality free onepage template</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
-            </div>
-            <div class="col-md-2 col-sm-2 col-xs-4"> <a class="btn-down" href="#">Download</a> </div>
-        </div>
+       
     </div>
     <!--Service-Section-Start-->
     <section id="service">
         <div class="container">
             <div class="col-md-8 col-md-offset-2">
                 <div class="heading">
-                    <h2>OUR SERVI<span>CE</span></h2>
+                    <h2>Schedule<span></span></h2>
                     <div class="line"></div>
                     <p><span><strong>L</strong></span>orem ipsum dolor sit amet, consectetur adipisicing elit, sed do
                         eiusmod tempor incididunt ut
