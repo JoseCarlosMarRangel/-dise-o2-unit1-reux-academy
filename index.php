@@ -65,7 +65,6 @@
                             <li><a class="scroll" href="#portfolio">Register</a></li>
 
                             <?php
-
                             session_start();
                             if (!isset($_SESSION['usuario'])) {
                                 echo '<li><a class="scroll" href="login/login.php">Login</a></li>';
@@ -78,7 +77,6 @@
                             if ($datos === 'administrador') {
                                 echo '<li><a class="scroll" href="asistentes.php">Admin</a></li>';
                             }
-
                             ?>
 
 
@@ -149,7 +147,8 @@
                 <div class="col-md-12 ab-sec">
                     <div class="col-md-6">
                         <h3 class="wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
-                            <span>W</span>Featured Artists</h3>
+                            <span>W</span>Featured Artists
+                        </h3>
                         <p><span><strong>L</strong></span>The Roux Academy selects approximately 200 distinct pieces of
                             contemporary art for display in their collective exhibit. Nine individuals are granted his
                             or her own exhibit hall to display entire collections or themed pieces. Each Featured Artist
