@@ -64,13 +64,13 @@
                             <li><a class="scroll" href="#features">Venue/traveler</a></li>
                             <li><a class="scroll" href="#portfolio">Register</a></li>
 
-
                             <?php
+
                             session_start();
                             if (!isset($_SESSION['usuario'])) {
                                 echo '<li><a class="scroll" href="login/login.php">Login</a></li>';
                             } else {
-                                echo '<li><a class="scroll" href="login/cerrar_session.php">Logout</a>' . "<p class='user'> usuario: " . $_SESSION['usuario'] . "</p>" . '</li>';
+                                echo '<li><a class="scroll" href="login/cerrar_session.php">Logout</a>' . "<p> usuario: " . $_SESSION['usuario'] . "</p>" . '</li>';
                             }
 
                             include 'login/conexion.php';
@@ -78,6 +78,7 @@
                             if ($datos === 'administrador') {
                                 echo '<li><a class="scroll" href="asistentes.php">Admin</a></li>';
                             }
+
                             ?>
 
 
@@ -137,77 +138,43 @@
                 <div class="heading">
                     <h2>Roux Conference</h2>
                     <div class="line"></div>
-                    <<<<<<< HEAD <p><span><strong>J</strong></span>oin over 500 hundred of the most creative and
-                        brilliant minds of
-                        art colleges all around the world for five days of lectures by world-renowned art scholars and
-                        artists, and seven days and nights of gallery exhibits featuring the best in contemporary art,
-                        including painting, sculpture, and more, in the beautiful halls of Hotel Contempo in the heart
-                        of Seattle.</p>
-                        =======
-                        <p>Join over 500 hundred of the most creative and brilliant minds of art colleges all around the
-                            world for five days of lectures by world-renowned art scholars and artists, and seven days
-                            and
-                            nights of gallery exhibits featuring the best in contemporary art, including painting,
-                            sculpture, and more, in the beautiful halls of Hotel Contempo in the heart of Seattle.</p>
-                        >>>>>>> master
+                    <p>Join over 500 hundred of the most creative and brilliant minds of art colleges all around the
+                        world for five days of lectures by world-renowned art scholars and artists, and seven days and
+                        nights of gallery exhibits featuring the best in contemporary art, including painting,
+                        sculpture, and more, in the beautiful halls of Hotel Contempo in the heart of Seattle.</p>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-12 ab-sec">
                     <div class="col-md-6">
-                        <<<<<<< HEAD <h3 class="wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
-                            <span>W</span>Featured Artists
-                            </h3>
-                            <p><span><strong>L</strong></span>The Roux Academy selects approximately 200 distinct pieces
-                                of
-                                =======
-                            <h3 class="wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">Featured
-                                Artists
-                            </h3>
-                            <p><span><strong>The Roux Academy</strong></span> selects approximately 200 distinct pieces
-                                of
-                                >>>>>>> master
-                                contemporary art for display in their collective exhibit. Nine individuals are granted
-                                his
-                                or her own exhibit hall to display entire collections or themed pieces. Each Featured
-                                Artist
-                                has an opportunity to speak at the conference to share his or her vision, perspective,
-                                and
-                                techniques with conference attendees.</p>
+                        <h3 class="wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">Featured Artists
+                        </h3>
+                        <p><span><strong>The Roux Academy</strong></span> selects approximately 200 distinct pieces of
+                            contemporary art for display in their collective exhibit. Nine individuals are granted his
+                            or her own exhibit hall to display entire collections or themed pieces. Each Featured Artist
+                            has an opportunity to speak at the conference to share his or her vision, perspective, and
+                            techniques with conference attendees.</p>
 
-                            <div class="artistgroup clearfix">
-                                <ul class="clearfix">
-                                    <<<<<<< HEAD <li><img src="images/artists/Barot_Bellingham_tn.jpg"
-                                            alt="Barot Bellingham"></li>
-                                        <li><img src="images/artists/Constance_Smith_tn.jpg" alt="Constance Smith"></li>
-                                        <li><img src="images/artists/Hassum_Harrod_tn.jpg" alt="Hassum Harrod"></li>
-                                        <li><img src="images/artists/Hillary_Goldwynn_tn.jpg" alt="Hillary Goldwynn">
-                                        </li>
-                                        <li><img src="images/artists/Jennifer_Jerome_tn.jpg" alt="Jennifer Jerome"></li>
-                                        <li><img src="images/artists/Jonathan_Ferrar_tn.jpg" alt="Jonathan Ferrar"></li>
-                                        <li><img src="images/artists/LaVonne_LaRue_tn.jpg" alt="LaVonne LaRue"></li>
-                                        <li><img src="images/artists/Riley_Rewington_tn.jpg" alt="Riley Rewington"></li>
-                                        <li><img src="images/artists/Xhou_Ta_tn.jpg" alt="Xhou Ta"></li>
-                                        =======
-                                        <!--primeros 3-->
-                                        <li><img src="images/artists/Barot_Bellingham_tn.jpg" alt="Barot Bellingham">
-                                            <img src="images/artists/Constance_Smith_tn.jpg" alt="Constance Smith">
-                                            <img src="images/artists/Hassum_Harrod_tn.jpg" alt="Hassum Harrod">
-                                        </li>
-                                        <!--segundos 3-->
-                                        <li><img src="images/artists/Hillary_Goldwynn_tn.jpg" alt="Hillary Goldwynn">
-                                            <img src="images/artists/Jennifer_Jerome_tn.jpg" alt="Jennifer Jerome">
-                                            <img src="images/artists/Jonathan_Ferrar_tn.jpg" alt="Jonathan Ferrar">
-                                        </li>
+                        <div class="artistgroup clearfix">
+                            <ul class="clearfix">
+                                <!--primeros 3-->
+                                <li><img src="images/artists/Barot_Bellingham_tn.jpg" alt="Barot Bellingham">
+                                    <img src="images/artists/Constance_Smith_tn.jpg" alt="Constance Smith">
+                                    <img src="images/artists/Hassum_Harrod_tn.jpg" alt="Hassum Harrod">
+                                </li>
+                                <!--segundos 3-->
+                                <li><img src="images/artists/Hillary_Goldwynn_tn.jpg" alt="Hillary Goldwynn">
+                                    <img src="images/artists/Jennifer_Jerome_tn.jpg" alt="Jennifer Jerome">
+                                    <img src="images/artists/Jonathan_Ferrar_tn.jpg" alt="Jonathan Ferrar">
+                                </li>
 
-                                        <li><img src="images/artists/LaVonne_LaRue_tn.jpg" alt="LaVonne LaRue">
-                                            <img src="images/artists/Riley_Rewington_tn.jpg" alt="Riley Rewington">
-                                            <img src="images/artists/Xhou_Ta_tn.jpg" alt="Xhou Ta">
-                                        </li>
-                                        >>>>>>> master
-                                </ul>
+                                <li><img src="images/artists/LaVonne_LaRue_tn.jpg" alt="LaVonne LaRue">
+                                    <img src="images/artists/Riley_Rewington_tn.jpg" alt="Riley Rewington">
+                                    <img src="images/artists/Xhou_Ta_tn.jpg" alt="Xhou Ta">
+                                </li>
+                            </ul>
 
-                            </div>
+                        </div>
 
                     </div>
                     <div class="col-md-6 ab-sec-img wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms"><img
