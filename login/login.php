@@ -21,7 +21,7 @@ if (isset($_POST['aceptar'])) {
 }
 
 
-                    
+
 ?>
 
 <!DOCTYPE html>
@@ -45,34 +45,33 @@ if (isset($_POST['aceptar'])) {
             <div class="register">
                 <h2>Registrarse</h2>
                 <form method="post" action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']) ?>">
-                    <input type="text" placeholder="Nombre" class="nombre" name = "nombre">
-                    <input type="password" placeholder="Contraseña" class="pass" name = "pass">
-                    <input type="password" placeholder="Confirma contraseña" class="repass" name = "repass">
+                    <input type="text" placeholder="Nombre" class="nombre" name="nombre">
+                    <input type="password" placeholder="Contraseña" class="pass" name="pass">
+                    <input type="password" placeholder="Confirma contraseña" class="repass" name="repass">
                     <input type="submit" class="submit" value="REGISTRARSE" name="registrar">
                     <?php
-                    
-                        
-                        if( isset($_POST['registrar']) ){
-                            $usuario = $_POST['nombre'];
-                            $contrasena = $_POST['pass'];
-                        
-                            if(!valida_usuario_regs($usuario, $conexion) && $usuario !== null){
-                                if($_POST['pass'] == $_POST['repass'] && $_POST['pass'] !== ''){
-                        
-                                    registrar_usuario_bd($usuario, $contrasena, $conexion);
-                                    
-                                }else{
-                                    echo '<p class="alerta">Las contraseñas no son validas</p>';
-                                }
-                            }else{
-                                
-                                echo '<p class="alerta">El usuario ya existe</p>';
+
+
+                    if (isset($_POST['registrar'])) {
+                        $usuario = $_POST['nombre'];
+                        $contrasena = $_POST['pass'];
+
+                        if (!valida_usuario_regs($usuario, $conexion) && $usuario !== null) {
+                            if ($_POST['pass'] == $_POST['repass'] && $_POST['pass'] !== '') {
+
+                                registrar_usuario_bd($usuario, $contrasena, $conexion);
+                            } else {
+                                echo '<p class="alerta">Las contraseñas no son validas</p>';
                             }
-                            
+                        } else {
+
+                            echo '<p class="alerta">El usuario ya existe</p>';
                         }
-                    
+                    }
+
                     ?>
 
+                    <input class="submit" type="reset" value="cancel">
                 </form>
             </div>
 
@@ -87,7 +86,11 @@ if (isset($_POST['aceptar'])) {
                         echo '<p class="alerta" >Usuario no valido</p>';
                     }
                     ?>
+                    <input class="submit" type="reset" value="cancel">
                 </form>
+                <input type="submit" class="submit" value="regresar" name="regresar"
+                    onclick="location.href='../index.php'">
+
             </div>
         </div>
     </div>
