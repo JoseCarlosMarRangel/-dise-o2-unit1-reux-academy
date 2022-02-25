@@ -64,6 +64,7 @@
                             <li><a class="scroll" href="#features">Venue/traveler</a></li>
                             <li><a class="scroll" href="#portfolio">Register</a></li>
 
+
                             <?php
                             session_start();
                             if (!isset($_SESSION['usuario'])) {
@@ -136,39 +137,77 @@
                 <div class="heading">
                     <h2>Roux Conference</h2>
                     <div class="line"></div>
-                    <p><span><strong>J</strong></span>oin over 500 hundred of the most creative and brilliant minds of
+                    <<<<<<< HEAD <p><span><strong>J</strong></span>oin over 500 hundred of the most creative and
+                        brilliant minds of
                         art colleges all around the world for five days of lectures by world-renowned art scholars and
                         artists, and seven days and nights of gallery exhibits featuring the best in contemporary art,
                         including painting, sculpture, and more, in the beautiful halls of Hotel Contempo in the heart
                         of Seattle.</p>
+                        =======
+                        <p>Join over 500 hundred of the most creative and brilliant minds of art colleges all around the
+                            world for five days of lectures by world-renowned art scholars and artists, and seven days
+                            and
+                            nights of gallery exhibits featuring the best in contemporary art, including painting,
+                            sculpture, and more, in the beautiful halls of Hotel Contempo in the heart of Seattle.</p>
+                        >>>>>>> master
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-12 ab-sec">
                     <div class="col-md-6">
-                        <h3 class="wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
+                        <<<<<<< HEAD <h3 class="wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
                             <span>W</span>Featured Artists
-                        </h3>
-                        <p><span><strong>L</strong></span>The Roux Academy selects approximately 200 distinct pieces of
-                            contemporary art for display in their collective exhibit. Nine individuals are granted his
-                            or her own exhibit hall to display entire collections or themed pieces. Each Featured Artist
-                            has an opportunity to speak at the conference to share his or her vision, perspective, and
-                            techniques with conference attendees.</p>
+                            </h3>
+                            <p><span><strong>L</strong></span>The Roux Academy selects approximately 200 distinct pieces
+                                of
+                                =======
+                            <h3 class="wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">Featured
+                                Artists
+                            </h3>
+                            <p><span><strong>The Roux Academy</strong></span> selects approximately 200 distinct pieces
+                                of
+                                >>>>>>> master
+                                contemporary art for display in their collective exhibit. Nine individuals are granted
+                                his
+                                or her own exhibit hall to display entire collections or themed pieces. Each Featured
+                                Artist
+                                has an opportunity to speak at the conference to share his or her vision, perspective,
+                                and
+                                techniques with conference attendees.</p>
 
-                        <div class="artistgroup clearfix">
-                            <ul class="clearfix">
-                                <li><img src="images/artists/Barot_Bellingham_tn.jpg" alt="Barot Bellingham"></li>
-                                <li><img src="images/artists/Constance_Smith_tn.jpg" alt="Constance Smith"></li>
-                                <li><img src="images/artists/Hassum_Harrod_tn.jpg" alt="Hassum Harrod"></li>
-                                <li><img src="images/artists/Hillary_Goldwynn_tn.jpg" alt="Hillary Goldwynn"></li>
-                                <li><img src="images/artists/Jennifer_Jerome_tn.jpg" alt="Jennifer Jerome"></li>
-                                <li><img src="images/artists/Jonathan_Ferrar_tn.jpg" alt="Jonathan Ferrar"></li>
-                                <li><img src="images/artists/LaVonne_LaRue_tn.jpg" alt="LaVonne LaRue"></li>
-                                <li><img src="images/artists/Riley_Rewington_tn.jpg" alt="Riley Rewington"></li>
-                                <li><img src="images/artists/Xhou_Ta_tn.jpg" alt="Xhou Ta"></li>
-                            </ul>
+                            <div class="artistgroup clearfix">
+                                <ul class="clearfix">
+                                    <<<<<<< HEAD <li><img src="images/artists/Barot_Bellingham_tn.jpg"
+                                            alt="Barot Bellingham"></li>
+                                        <li><img src="images/artists/Constance_Smith_tn.jpg" alt="Constance Smith"></li>
+                                        <li><img src="images/artists/Hassum_Harrod_tn.jpg" alt="Hassum Harrod"></li>
+                                        <li><img src="images/artists/Hillary_Goldwynn_tn.jpg" alt="Hillary Goldwynn">
+                                        </li>
+                                        <li><img src="images/artists/Jennifer_Jerome_tn.jpg" alt="Jennifer Jerome"></li>
+                                        <li><img src="images/artists/Jonathan_Ferrar_tn.jpg" alt="Jonathan Ferrar"></li>
+                                        <li><img src="images/artists/LaVonne_LaRue_tn.jpg" alt="LaVonne LaRue"></li>
+                                        <li><img src="images/artists/Riley_Rewington_tn.jpg" alt="Riley Rewington"></li>
+                                        <li><img src="images/artists/Xhou_Ta_tn.jpg" alt="Xhou Ta"></li>
+                                        =======
+                                        <!--primeros 3-->
+                                        <li><img src="images/artists/Barot_Bellingham_tn.jpg" alt="Barot Bellingham">
+                                            <img src="images/artists/Constance_Smith_tn.jpg" alt="Constance Smith">
+                                            <img src="images/artists/Hassum_Harrod_tn.jpg" alt="Hassum Harrod">
+                                        </li>
+                                        <!--segundos 3-->
+                                        <li><img src="images/artists/Hillary_Goldwynn_tn.jpg" alt="Hillary Goldwynn">
+                                            <img src="images/artists/Jennifer_Jerome_tn.jpg" alt="Jennifer Jerome">
+                                            <img src="images/artists/Jonathan_Ferrar_tn.jpg" alt="Jonathan Ferrar">
+                                        </li>
 
-                        </div>
+                                        <li><img src="images/artists/LaVonne_LaRue_tn.jpg" alt="LaVonne LaRue">
+                                            <img src="images/artists/Riley_Rewington_tn.jpg" alt="Riley Rewington">
+                                            <img src="images/artists/Xhou_Ta_tn.jpg" alt="Xhou Ta">
+                                        </li>
+                                        >>>>>>> master
+                                </ul>
+
+                            </div>
 
                     </div>
                     <div class="col-md-6 ab-sec-img wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms"><img
@@ -188,7 +227,7 @@
                 <div class="heading">
                     <h2>Schedule<span></span></h2>
                     <div class="line"></div>
-                    <p><span><strong>L</strong></span>orem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
                         eiusmod tempor incididunt ut
                         et dolore magna aliqua. Ut enim ad minim veniam</p>
                 </div>
@@ -268,56 +307,20 @@
                     <!--/.col-md-4-->
                 </div>
             </div>
-            <div class="experience">
-                <div class="col-sm-6 col-xs-12">
-                    <div class="our-skills wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="300ms">
-                        <div class="single-skill wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="300ms">
-                            <p class="lead">User Experiances</p>
-                            <div class="progress">
-                                <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="0"
-                                    aria-valuemin="0" aria-valuemax="90" style="width: 95%;"> 95% </div>
-                            </div>
-                        </div>
-                        <div class="single-skill wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="400ms">
-                            <p class="lead">Web Design</p>
-                            <div class="progress">
-                                <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="0"
-                                    aria-valuemin="0" aria-valuemax="80" style="width: 80%;"> 80% </div>
-                            </div>
-                        </div>
-                        <div class="single-skill wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="500ms">
-                            <p class="lead">Programming</p>
-                            <div class="progress">
-                                <div class="progress-bar progress-bar-primary six-sec-ease-in-out" role="progressbar"
-                                    aria-valuenow="0" aria-valuemin="100" aria-valuemax="60" style="width: 60%;"> 60%
-                                </div>
-                            </div>
-                        </div>
-                        <div class="single-skill wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="600ms">
-                            <p class="lead">Fun</p>
-                            <div class="progress">
-                                <div class="progress-bar progress-bar-primary six-sec-ease-in-out" role="progressbar"
-                                    aria-valuenow="0" aria-valuemin="100" aria-valuemax="70" style="width: 70%;"> 70%
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6  wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="600ms"> <img
-                        src="images/Service/01.png" class="img-responsive" alt=""> </div>
-            </div>
+
         </div>
     </section>
+    <div class="bg-sec">
+
+    </div>
+
     <!--Features-Section-Start-->
     <section id="features">
         <div class="container">
             <div class="col-md-8 col-md-offset-2">
                 <div class="heading">
-                    <h2>AWESOME FEATUR<span>ES</span></h2>
+                    <h2>Venue/Traveler</h2>
                     <div class="line"></div>
-                    <p><span><strong>L</strong></span>orem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                        eiusmod tempor incididunt ut
-                        et dolore magna aliqua. Ut enim ad minim veniam</p>
                 </div>
             </div>
             <ul class="nav nav-tabs" role="tablist">
@@ -335,98 +338,82 @@
             <div class="tab-content">
                 <div role="tabpanel" class="tab-pane fade in active feat-sec" id="tab-1">
                     <div class="col-md-6 tab">
-                        <h5>Web Design</h5>
+                        <h5>The Venue</h5>
                         <div class="line"></div>
                         <div class="clearfix"></div>
-                        <p class="feat-sec">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-                            unknown printer took a galley of type and scrambled it to make a type specimen book. It has
-                            survived not only five centuries, but also the leap into electronic typesetting, remaining
-                            essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets
-                            containing<br>
+                        <p class="feat-sec">Hotel Contempo is the perfect spot for a gathering of modern artists. Not
+                            only are the conference rooms and halls decked with breathtaking contemporary art and
+                            sculptures, but the individual rooms are as unique as the renowned artists who were
+                            commissioned to decorate them. From the Ross Monroe Purple suite filled wall to wall with
+                            paintings in his palette of violet and lavender to the Tess Lessinger Sculpted Universe
+                            suite, with dozens of original sculptures, including the bronze-casted toilet, visitors are
+                            sure to be intrigued and comforted during their stay at Hotel Contempo. For those who opt to
+                            stay at another location, there is no shortage of hotels in Downtown Seattle. Ranging from
+                            shabby chic to the ultimate in sophistication.<br>
                         </p>
-                        <p class="feat-sec-1">Lorem Ipsum passages, and more recently with desktop publishing software
-                            like Aldus PageMaker including versions of Lorem Ipsum."But I must explain to you how all
-                            this mistaken idea of denouncing pleasure and praising pain was born and I will give you a
-                            complete account of the system, and expound </p>
                     </div>
-                    <div class="col-md-6 tab-img"><img src="images/Features/01.jpg" class="img-responsive" alt=""></div>
+                    <div class="col-md-6 tab-img"><img src="images/Features/hotel_contempo.jpg" class="img-responsive"
+                            alt=""></div>
                 </div>
                 <div role="tabpanel" class="tab-pane fade feat-sec" id="tab-2">
                     <div class="col-md-6 tab">
-                        <h5>Graphic Design</h5>
+                        <h5>Phillips of Bell town</h5>
                         <div class="line"></div>
                         <div class="clearfix"></div>
-                        <p class="feat-sec">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-                            unknown printer took a galley of type and scrambled it to make a type specimen book. It has
-                            survived not only five centuries, but also the leap into electronic typesetting, remaining
-                            essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets
-                            containing<br>
+                        <p class="feat-sec">Situated amongt the hip, youthful culture of Downtown Seattle, Phillips of
+                            Belltown is the place to be any time of the day or night. Choose from Jazz and Rock music at
+                            the various music venues, and shop until you drop at an assortment of thrift stores and
+                            upscale boutiques. The hotel itself is a historical gem, with architectural achievements in
+                            every beam, brick, and support.<br>
                         </p>
-                        <p class="feat-sec-1">Lorem Ipsum passages, and more recently with desktop publishing software
-                            like Aldus PageMaker including versions of Lorem Ipsum."But I must explain to you how all
-                            this mistaken idea of denouncing pleasure and praising pain was born and I will give you a
-                            complete account of the system, and expound </p>
+
                     </div>
-                    <div class="col-md-6 tab-img"><img src="images/Features/02.jpg" class="img-responsive" alt=""></div>
+                    <div class="col-md-6 tab-img"><img src="images/Features/hotel_phillips.jpg" class="img-responsive"
+                            alt=""></div>
                 </div>
                 <div role="tabpanel" class="tab-pane fade feat-sec" id="tab-3">
                     <div class="col-md-6 tab">
-                        <h5>Web Development</h5>
+                        <h5>The Otter Renaissance Hotel</h5>
                         <div class="line"></div>
                         <div class="clearfix"></div>
-                        <p class="feat-sec">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-                            unknown printer took a galley of type and scrambled it to make a type specimen book. It has
-                            survived not only five centuries, but also the leap into electronic typesetting, remaining
-                            essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets
-                            containing<br>
+                        <p class="feat-sec">Hotel founder, Henry Chasings, had a love of otters, having been raised in
+                            an Alaskan village where otters played out his back door. As his tribute to the sea
+                            creatures of his early days, Henry was insistent upon having an otter in every hall, wall,
+                            and room inside the Otter Renaissance Hotel<br>
                         </p>
-                        <p class="feat-sec-1">Lorem Ipsum passages, and more recently with desktop publishing software
-                            like Aldus PageMaker including versions of Lorem Ipsum."But I must explain to you how all
-                            this mistaken idea of denouncing pleasure and praising pain was born and I will give you a
-                            complete account of the system, and expound </p>
+
                     </div>
-                    <div class="col-md-6 tab-img"><img src="images/Features/03.jpg" class="img-responsive" alt=""></div>
+                    <div class="col-md-6 tab-img"><img src="images/Features/hotel_otter.jpg" class="img-responsive"
+                            alt=""></div>
                 </div>
                 <div role="tabpanel" class="tab-pane fade feat-sec" id="tab-4">
                     <div class="col-md-6 tab">
-                        <h5>Responsive Design</h5>
+                        <h5>The Rage Hotel</h5>
                         <div class="line"></div>
                         <div class="clearfix"></div>
-                        <p class="feat-sec">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-                            unknown printer took a galley of type and scrambled it to make a type specimen book. It has
-                            survived not only five centuries, but also the leap into electronic typesetting, remaining
-                            essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets
-                            containing<br>
+                        <p class="feat-sec">Seattle’s South Lake Union district plays home to the ultra modern Rage
+                            Hotel, that is outfitted with a state-of-the-art computer and printing facility in the
+                            penthouse, and draws tech professionals from all over the world for business conferences and
+                            vacations, alike.<br>
                         </p>
-                        <p class="feat-sec-1">Lorem Ipsum passages, and more recently with desktop publishing software
-                            like Aldus PageMaker including versions of Lorem Ipsum."But I must explain to you how all
-                            this mistaken idea of denouncing pleasure and praising pain was born and I will give you a
-                            complete account of the system, and expound </p>
                     </div>
-                    <div class="col-md-6 tab-img"><img src="images/Features/04.jpg" class="img-responsive" alt=""></div>
+                    <div class="col-md-6 tab-img"><img src="images/Features/hotel_rage.jpg" class="img-responsive"
+                            alt=""></div>
                 </div>
                 <div role="tabpanel" class="tab-pane fade feat-sec" id="tab-5">
                     <div class="col-md-6 tab">
-                        <h5>Creative Gallery</h5>
+                        <h5>Gwendoline’s Fancy</h5>
                         <div class="line"></div>
                         <div class="clearfix"></div>
-                        <p class="feat-sec">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-                            unknown printer took a galley of type and scrambled it to make a type specimen book. It has
-                            survived not only five centuries, but also the leap into electronic typesetting, remaining
-                            essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets
-                            containing<br>
+                        <p class="feat-sec">In the heart of the West Edge district in Seattle, Gwendoline’s Fancy, named
+                            after a Navy submarine that got lost at sea in 1910, is a central landing place for history
+                            buffs who can immerse themselves in the Museum of History located in the hotel mezzanine.
+                            For those travelers who aren’t into history, there are plenty of other nearby sights to keep
+                            them entertained, including Pike Place Market and the Seattle Art Museum.<br>
                         </p>
-                        <p class="feat-sec-1">Lorem Ipsum passages, and more recently with desktop publishing software
-                            like Aldus PageMaker including versions of Lorem Ipsum."But I must explain to you how all
-                            this mistaken idea of denouncing pleasure and praising pain was born and I will give you a
-                            complete account of the system, and expound </p>
                     </div>
-                    <div class="col-md-6 tab-img"><img src="images/Features/05.jpg" class="img-responsive" alt=""></div>
+                    <div class="col-md-6 tab-img"><img src="images/Features/hotel_gwendoline.jpg" class="img-responsive"
+                            alt=""></div>
                 </div>
             </div>
         </div>
@@ -436,7 +423,7 @@
         <div class="container">
             <div class="col-md-8 col-md-offset-2">
                 <div class="heading">
-                    <h2>AWESOME FEATUR<span>ES</span></h2>
+                    <h2>AWESOME FEATURES</h2>
                     <div class="line"></div>
                     <p><span><strong>L</strong></span>orem ipsum dolor sit amet, consectetur adipisicing elit, sed do
                         eiusmod tempor incididunt ut
@@ -517,109 +504,15 @@
         </div>
     </section>
     <!--Pricing-Section-Start-->
-    <section id="pricing">
-        <div class="container">
-            <div class="col-md-8 col-md-offset-2">
-                <div class="heading">
-                    <h2>PRICE PACKAG<span>ES</span></h2>
-                    <div class="line"></div>
-                    <p><span><strong>L</strong></span>orem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                        eiusmod tempor incididunt ut
-                        et dolore magna aliqua. Ut enim ad minim veniam</p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-6 col-md-3">
-                    <div class="wow zoomIn" data-wow-duration="400ms" data-wow-delay="0ms">
-                        <ul class="pricing">
-                            <li class="plan-header">
-                                <div class="price-duration">
-                                    <div class="price"> $39 </div>
-                                    <div class="duration"> per month </div>
-                                </div>
-                                <div class="plan-name"> Starter </div>
-                            </li>
-                            <li><strong>1</strong> DOMAIN</li>
-                            <li><strong>100GB</strong> DISK SPACE</li>
-                            <li><strong>UNLIMITED</strong> BANDWIDTH</li>
-                            <li>SHARED SSL CERTIFICATE</li>
-                            <li><strong>10</strong> EMAIL ADDRESS</li>
-                            <li><strong>24/7</strong> SUPPORT</li>
-                            <li><a class="btn-order" href="#">Order Now</a> </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-3">
-                    <div class="wow zoomIn" data-wow-duration="400ms" data-wow-delay="200ms">
-                        <ul class="pricing">
-                            <li class="plan-header">
-                                <div class="price-duration">
-                                    <div class="price"> $69 </div>
-                                    <div class="duration"> per month </div>
-                                </div>
-                                <div class="plan-name"> Business </div>
-                            </li>
-                            <li><strong>3</strong> DOMAIN</li>
-                            <li><strong>300GB</strong> DISK SPACE</li>
-                            <li><strong>UNLIMITED</strong> BANDWIDTH</li>
-                            <li>SHARED SSL CERTIFICATE</li>
-                            <li><strong>30</strong> EMAIL ADDRESS</li>
-                            <li><strong>24/7</strong> SUPPORT</li>
-                            <li><a class="btn-order" href="#">Order Now</a> </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-3">
-                    <div class="wow zoomIn" data-wow-duration="400ms" data-wow-delay="400ms">
-                        <ul class="pricing">
-                            <li class="plan-header">
-                                <div class="price-duration">
-                                    <div class="price"> $99 </div>
-                                    <div class="duration"> per month </div>
-                                </div>
-                                <div class="plan-name"> Pro </div>
-                            </li>
-                            <li><strong>5</strong> DOMAIN</li>
-                            <li><strong>500GB</strong> DISK SPACE</li>
-                            <li><strong>UNLIMITED</strong> BANDWIDTH</li>
-                            <li>SHARED SSL CERTIFICATE</li>
-                            <li><strong>50</strong> EMAIL ADDRESS</li>
-                            <li><strong>24/7</strong> SUPPORT</li>
-                            <li><a class="btn-order" href="#">Order Now</a> </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-3">
-                    <div class="wow zoomIn" data-wow-duration="400ms" data-wow-delay="600ms">
-                        <ul class="pricing">
-                            <li class="plan-header">
-                                <div class="price-duration">
-                                    <div class="price"> $199 </div>
-                                    <div class="duration"> per month </div>
-                                </div>
-                                <div class="plan-name"> Ultra </div>
-                            </li>
-                            <li><strong>10</strong> DOMAIN</li>
-                            <li><strong>1000GB</strong> DISK SPACE</li>
-                            <li><strong>UNLIMITED</strong> BANDWIDTH</li>
-                            <li>SHARED SSL CERTIFICATE</li>
-                            <li><strong>100</strong> EMAIL ADDRESS</li>
-                            <li><strong>24/7</strong> SUPPORT</li>
-                            <li><a class="btn-order" href="#">Order Now</a> </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+
     <!--Team-Section-Start-->
     <section id="team">
         <div class="container">
             <div class="col-md-8 col-md-offset-2">
                 <div class="heading">
-                    <h2>OUR TE<span>AM</span></h2>
+                    <h2>OUR TEAM</h2>
                     <div class="line"></div>
-                    <p><span><strong>L</strong></span>orem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
                         eiusmod tempor incididunt ut
                         et dolore magna aliqua. Ut enim ad minim veniam</p>
                 </div>
@@ -790,9 +683,9 @@
         <div class="container">
             <div class="col-md-8 col-md-offset-2">
                 <div class="heading">
-                    <h2>LATEST BL<span>OG</span></h2>
+                    <h2>LATEST BLOG</h2>
                     <div class="line"></div>
-                    <p><span><strong>L</strong></span>orem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
                         eiusmod tempor incididunt ut
                         et dolore magna aliqua. Ut enim ad minim veniam</p>
                 </div>
@@ -897,6 +790,7 @@
         </div>
     </div>
     <!--Contact-Section-Start-->
+    <!--
     <section id="contact">
         <div class="container">
             <div class="col-md-8 col-md-offset-2">
@@ -956,6 +850,7 @@
             </div>
         </div>
     </section>
+    -->
     <footer id="footer">
         <div class="bg-sec">
             <div class="container">
