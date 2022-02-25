@@ -63,7 +63,7 @@
                             <li><a class="scroll" href="#service">Schedule</a></li>
                             <li><a class="scroll" href="#features">Venue/traveler</a></li>
                             <li><a class="scroll" href="#portfolio">Register</a></li>
-                         
+
                             <?php
 
                             session_start();
@@ -99,7 +99,11 @@
                         <div class="row">
                             <div class="col-md-7 col-sm-12 col-xs-12">
                                 <h1>Featured Artists</h1>
-                                <p>The Roux Academy selects approximately 200 distinct pieces of contemporary art for display in their collective exhibit. Nine individuals are granted his or her own exhibit hall to display entire collections or themed pieces. Each Featured Artist has an opportunity to speak at the conference to share his or her vision, perspective, and techniques with conference attendees.</p>
+                                <p>The Roux Academy selects approximately 200 distinct pieces of contemporary art for
+                                    display in their collective exhibit. Nine individuals are granted his or her own
+                                    exhibit hall to display entire collections or themed pieces. Each Featured Artist
+                                    has an opportunity to speak at the conference to share his or her vision,
+                                    perspective, and techniques with conference attendees.</p>
                             </div>
                         </div>
                     </div>
@@ -110,7 +114,12 @@
                         <div class="row">
                             <div class="col-md-7 col-sm-12 col-xs-12">
                                 <h1>About the Event</h1>
-                                <p>The Roux Academy’s annual conference and exhibit is designed to foster a close-knit relationship amongst artists at various universities around the world. But sign up early, as this not-to-miss conference sells out quickly, and the waiting list is long. In addition, art students are encouraged to send in works from their school portfolios to be considered for hanging in the CAC exhibit halls, as well as to be selected as a Featured Artist.</p>
+                                <p>The Roux Academy’s annual conference and exhibit is designed to foster a close-knit
+                                    relationship amongst artists at various universities around the world. But sign up
+                                    early, as this not-to-miss conference sells out quickly, and the waiting list is
+                                    long. In addition, art students are encouraged to send in works from their school
+                                    portfolios to be considered for hanging in the CAC exhibit halls, as well as to be
+                                    selected as a Featured Artist.</p>
                             </div>
                         </div>
                     </div>
@@ -129,28 +138,42 @@
                 <div class="heading">
                     <h2>Roux Conference</h2>
                     <div class="line"></div>
-                    <p><span><strong>J</strong></span>oin over 500 hundred of the most creative and brilliant minds of art colleges all around the world for five days of lectures by world-renowned art scholars and artists, and seven days and nights of gallery exhibits featuring the best in contemporary art, including painting, sculpture, and more, in the beautiful halls of Hotel Contempo in the heart of Seattle.</p>
+                    <p>Join over 500 hundred of the most creative and brilliant minds of art colleges all around the
+                        world for five days of lectures by world-renowned art scholars and artists, and seven days and
+                        nights of gallery exhibits featuring the best in contemporary art, including painting,
+                        sculpture, and more, in the beautiful halls of Hotel Contempo in the heart of Seattle.</p>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-12 ab-sec">
                     <div class="col-md-6">
-                        <h3 class="wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms"><span>W</span>Featured Artists</h3>
-                        <p><span><strong>L</strong></span>The Roux Academy selects approximately 200 distinct pieces of contemporary art for display in their collective exhibit. Nine individuals are granted his or her own exhibit hall to display entire collections or themed pieces. Each Featured Artist has an opportunity to speak at the conference to share his or her vision, perspective, and techniques with conference attendees.</p>
+                        <h3 class="wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">Featured Artists
+                        </h3>
+                        <p><span><strong>The Roux Academy</strong></span> selects approximately 200 distinct pieces of
+                            contemporary art for display in their collective exhibit. Nine individuals are granted his
+                            or her own exhibit hall to display entire collections or themed pieces. Each Featured Artist
+                            has an opportunity to speak at the conference to share his or her vision, perspective, and
+                            techniques with conference attendees.</p>
 
                         <div class="artistgroup clearfix">
                             <ul class="clearfix">
-                                <li><img src="images/artists/Barot_Bellingham_tn.jpg" alt="Barot Bellingham"></li>
-                                <li><img src="images/artists/Constance_Smith_tn.jpg" alt="Constance Smith"></li>
-                                <li><img src="images/artists/Hassum_Harrod_tn.jpg" alt="Hassum Harrod"></li>
-                                <li><img src="images/artists/Hillary_Goldwynn_tn.jpg" alt="Hillary Goldwynn"></li>
-                                <li><img src="images/artists/Jennifer_Jerome_tn.jpg" alt="Jennifer Jerome"></li>
-                                <li><img src="images/artists/Jonathan_Ferrar_tn.jpg" alt="Jonathan Ferrar"></li>
-                                <li><img src="images/artists/LaVonne_LaRue_tn.jpg" alt="LaVonne LaRue"></li>
-                                <li><img src="images/artists/Riley_Rewington_tn.jpg" alt="Riley Rewington"></li>
-                                <li><img src="images/artists/Xhou_Ta_tn.jpg" alt="Xhou Ta"></li>
+                                <!--primeros 3-->
+                                <li><img src="images/artists/Barot_Bellingham_tn.jpg" alt="Barot Bellingham">
+                                    <img src="images/artists/Constance_Smith_tn.jpg" alt="Constance Smith">
+                                    <img src="images/artists/Hassum_Harrod_tn.jpg" alt="Hassum Harrod">
+                                </li>
+                                <!--segundos 3-->
+                                <li><img src="images/artists/Hillary_Goldwynn_tn.jpg" alt="Hillary Goldwynn">
+                                    <img src="images/artists/Jennifer_Jerome_tn.jpg" alt="Jennifer Jerome">
+                                    <img src="images/artists/Jonathan_Ferrar_tn.jpg" alt="Jonathan Ferrar">
+                                </li>
+
+                                <li><img src="images/artists/LaVonne_LaRue_tn.jpg" alt="LaVonne LaRue">
+                                    <img src="images/artists/Riley_Rewington_tn.jpg" alt="Riley Rewington">
+                                    <img src="images/artists/Xhou_Ta_tn.jpg" alt="Xhou Ta">
+                                </li>
                             </ul>
-                            
+
                         </div>
 
                     </div>
@@ -162,7 +185,7 @@
     </section>
     <!--About-Sec-2-Start-->
     <div class="bg-sec">
-       
+
     </div>
     <!--Service-Section-Start-->
     <section id="service">
@@ -171,7 +194,7 @@
                 <div class="heading">
                     <h2>Schedule<span></span></h2>
                     <div class="line"></div>
-                    <p><span><strong>L</strong></span>orem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
                         eiusmod tempor incididunt ut
                         et dolore magna aliqua. Ut enim ad minim veniam</p>
                 </div>
@@ -254,16 +277,16 @@
 
         </div>
     </section>
-        <div class="bg-sec">
-       
-        </div>
+    <div class="bg-sec">
+
+    </div>
 
     <!--Features-Section-Start-->
     <section id="features">
         <div class="container">
             <div class="col-md-8 col-md-offset-2">
                 <div class="heading">
-                    <h2>Venue/Travel<span>er</span></h2>
+                    <h2>Venue/Traveler</h2>
                     <div class="line"></div>
                 </div>
             </div>
@@ -285,52 +308,79 @@
                         <h5>The Venue</h5>
                         <div class="line"></div>
                         <div class="clearfix"></div>
-                        <p class="feat-sec">Hotel Contempo is the perfect spot for a gathering of modern artists. Not only are the conference rooms and halls decked with breathtaking contemporary art and sculptures, but the individual rooms are as unique as the renowned artists who were commissioned to decorate them. From the Ross Monroe Purple suite filled wall to wall with paintings in his palette of violet and lavender to the Tess Lessinger Sculpted Universe suite, with dozens of original sculptures, including the bronze-casted toilet, visitors are sure to be intrigued and comforted during their stay at Hotel Contempo. For those who opt to stay at another location, there is no shortage of hotels in Downtown Seattle. Ranging from shabby chic to the ultimate in sophistication.<br>
+                        <p class="feat-sec">Hotel Contempo is the perfect spot for a gathering of modern artists. Not
+                            only are the conference rooms and halls decked with breathtaking contemporary art and
+                            sculptures, but the individual rooms are as unique as the renowned artists who were
+                            commissioned to decorate them. From the Ross Monroe Purple suite filled wall to wall with
+                            paintings in his palette of violet and lavender to the Tess Lessinger Sculpted Universe
+                            suite, with dozens of original sculptures, including the bronze-casted toilet, visitors are
+                            sure to be intrigued and comforted during their stay at Hotel Contempo. For those who opt to
+                            stay at another location, there is no shortage of hotels in Downtown Seattle. Ranging from
+                            shabby chic to the ultimate in sophistication.<br>
                         </p>
                     </div>
-                    <div class="col-md-6 tab-img"><img src="images/Features/hotel_contempo.jpg" class="img-responsive" alt=""></div>
+                    <div class="col-md-6 tab-img"><img src="images/Features/hotel_contempo.jpg" class="img-responsive"
+                            alt=""></div>
                 </div>
                 <div role="tabpanel" class="tab-pane fade feat-sec" id="tab-2">
                     <div class="col-md-6 tab">
                         <h5>Phillips of Bell town</h5>
                         <div class="line"></div>
                         <div class="clearfix"></div>
-                        <p class="feat-sec">Situated amongt the hip, youthful culture of Downtown Seattle, Phillips of Belltown is the place to be any time of the day or night. Choose from Jazz and Rock music at the various music venues, and shop until you drop at an assortment of thrift stores and upscale boutiques. The hotel itself is a historical gem, with architectural achievements in every beam, brick, and support.<br>
+                        <p class="feat-sec">Situated amongt the hip, youthful culture of Downtown Seattle, Phillips of
+                            Belltown is the place to be any time of the day or night. Choose from Jazz and Rock music at
+                            the various music venues, and shop until you drop at an assortment of thrift stores and
+                            upscale boutiques. The hotel itself is a historical gem, with architectural achievements in
+                            every beam, brick, and support.<br>
                         </p>
-            
+
                     </div>
-                    <div class="col-md-6 tab-img"><img src="images/Features/hotel_phillips.jpg" class="img-responsive" alt=""></div>
+                    <div class="col-md-6 tab-img"><img src="images/Features/hotel_phillips.jpg" class="img-responsive"
+                            alt=""></div>
                 </div>
                 <div role="tabpanel" class="tab-pane fade feat-sec" id="tab-3">
                     <div class="col-md-6 tab">
                         <h5>The Otter Renaissance Hotel</h5>
                         <div class="line"></div>
                         <div class="clearfix"></div>
-                        <p class="feat-sec">Hotel founder, Henry Chasings, had a love of otters, having been raised in an Alaskan village where otters played out his back door. As his tribute to the sea creatures of his early days, Henry was insistent upon having an otter in every hall, wall, and room inside the Otter Renaissance Hotel<br>
+                        <p class="feat-sec">Hotel founder, Henry Chasings, had a love of otters, having been raised in
+                            an Alaskan village where otters played out his back door. As his tribute to the sea
+                            creatures of his early days, Henry was insistent upon having an otter in every hall, wall,
+                            and room inside the Otter Renaissance Hotel<br>
                         </p>
-                     
+
                     </div>
-                    <div class="col-md-6 tab-img"><img src="images/Features/hotel_otter.jpg" class="img-responsive" alt=""></div>
+                    <div class="col-md-6 tab-img"><img src="images/Features/hotel_otter.jpg" class="img-responsive"
+                            alt=""></div>
                 </div>
                 <div role="tabpanel" class="tab-pane fade feat-sec" id="tab-4">
                     <div class="col-md-6 tab">
                         <h5>The Rage Hotel</h5>
                         <div class="line"></div>
                         <div class="clearfix"></div>
-                        <p class="feat-sec">Seattle’s South Lake Union district plays home to the ultra modern Rage Hotel, that is outfitted with a state-of-the-art computer and printing facility in the penthouse, and draws tech professionals from all over the world for business conferences and vacations, alike.<br>
+                        <p class="feat-sec">Seattle’s South Lake Union district plays home to the ultra modern Rage
+                            Hotel, that is outfitted with a state-of-the-art computer and printing facility in the
+                            penthouse, and draws tech professionals from all over the world for business conferences and
+                            vacations, alike.<br>
                         </p>
                     </div>
-                    <div class="col-md-6 tab-img"><img src="images/Features/hotel_rage.jpg" class="img-responsive" alt=""></div>
+                    <div class="col-md-6 tab-img"><img src="images/Features/hotel_rage.jpg" class="img-responsive"
+                            alt=""></div>
                 </div>
                 <div role="tabpanel" class="tab-pane fade feat-sec" id="tab-5">
                     <div class="col-md-6 tab">
                         <h5>Gwendoline’s Fancy</h5>
                         <div class="line"></div>
                         <div class="clearfix"></div>
-                        <p class="feat-sec">In the heart of the West Edge district in Seattle, Gwendoline’s Fancy, named after a Navy submarine that got lost at sea in 1910, is a central landing place for history buffs who can immerse themselves in the Museum of History located in the hotel mezzanine. For those travelers who aren’t into history, there are plenty of other nearby sights to keep them entertained, including Pike Place Market and the Seattle Art Museum.<br>
+                        <p class="feat-sec">In the heart of the West Edge district in Seattle, Gwendoline’s Fancy, named
+                            after a Navy submarine that got lost at sea in 1910, is a central landing place for history
+                            buffs who can immerse themselves in the Museum of History located in the hotel mezzanine.
+                            For those travelers who aren’t into history, there are plenty of other nearby sights to keep
+                            them entertained, including Pike Place Market and the Seattle Art Museum.<br>
                         </p>
                     </div>
-                    <div class="col-md-6 tab-img"><img src="images/Features/hotel_gwendoline.jpg" class="img-responsive" alt=""></div>
+                    <div class="col-md-6 tab-img"><img src="images/Features/hotel_gwendoline.jpg" class="img-responsive"
+                            alt=""></div>
                 </div>
             </div>
         </div>
@@ -340,7 +390,7 @@
         <div class="container">
             <div class="col-md-8 col-md-offset-2">
                 <div class="heading">
-                    <h2>AWESOME FEATUR<span>ES</span></h2>
+                    <h2>AWESOME FEATURES</h2>
                     <div class="line"></div>
                     <p><span><strong>L</strong></span>orem ipsum dolor sit amet, consectetur adipisicing elit, sed do
                         eiusmod tempor incididunt ut
@@ -421,15 +471,15 @@
         </div>
     </section>
     <!--Pricing-Section-Start-->
-   
+
     <!--Team-Section-Start-->
     <section id="team">
         <div class="container">
             <div class="col-md-8 col-md-offset-2">
                 <div class="heading">
-                    <h2>OUR TE<span>AM</span></h2>
+                    <h2>OUR TEAM</h2>
                     <div class="line"></div>
-                    <p><span><strong>L</strong></span>orem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
                         eiusmod tempor incididunt ut
                         et dolore magna aliqua. Ut enim ad minim veniam</p>
                 </div>
@@ -600,9 +650,9 @@
         <div class="container">
             <div class="col-md-8 col-md-offset-2">
                 <div class="heading">
-                    <h2>LATEST BL<span>OG</span></h2>
+                    <h2>LATEST BLOG</h2>
                     <div class="line"></div>
-                    <p><span><strong>L</strong></span>orem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
                         eiusmod tempor incididunt ut
                         et dolore magna aliqua. Ut enim ad minim veniam</p>
                 </div>
@@ -707,6 +757,7 @@
         </div>
     </div>
     <!--Contact-Section-Start-->
+    <!--
     <section id="contact">
         <div class="container">
             <div class="col-md-8 col-md-offset-2">
@@ -766,6 +817,7 @@
             </div>
         </div>
     </section>
+    -->
     <footer id="footer">
         <div class="bg-sec">
             <div class="container">
