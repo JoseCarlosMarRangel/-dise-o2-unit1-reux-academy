@@ -74,9 +74,12 @@
                             }
 
                             include 'login/conexion.php';
-                            $datos = retornar_datos_usuario($_SESSION['usuario'], $conexion);
-                            if ($datos === 'administrador') {
-                                echo '<li><a class="scroll" href="asistentes.php">Admin</a></li>';
+                            if (empty($datos)) {
+                            } else {
+                                $datos = retornar_datos_usuario($_SESSION['usuario'], $conexion);
+                                if ($datos === 'administrador') {
+                                    echo '<li><a class="scroll" href="asistentes.php">Admin</a></li>';
+                                }
                             }
 
                             ?>

@@ -3,7 +3,7 @@
 $bd = 'prueba';
 $servidor = 'localhost';
 $usuario = 'ghost'; //$usuario = 'ghost';
-$contrasena = '123';//$contrasena = '123';
+$contrasena = '123'; //$contrasena = '123';
 
 //*Creamos la conexión a la base de datos
 $conexion = mysqli_connect($servidor, $usuario, $contrasena, $bd);
@@ -60,7 +60,7 @@ function registrar_usuario_bd($usuario, $contrasena, $conexion)
     //echo $query;
     //var_dump($query);
     $resultado = mysqli_query($conexion, $query) or die('Consulta fallida');
-    
+
     if ($resultado) {
         echo "<p class='alerta'> Se registro correctamente </p>";
     } else {
