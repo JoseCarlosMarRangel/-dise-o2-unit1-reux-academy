@@ -58,7 +58,7 @@ $conexion = mysqli_connect($servidor, $usuario, $contrasena, $bd);
     </table>
     </div>
     <br />
-    <button class="btn btn--2" onclick="location.href='index.html'" >EXIT</button>
+    <button class="btn btn--2" onclick="location.href='index.php'" >EXIT</button>
 
      <div class="bg-sec">
 
