@@ -69,7 +69,7 @@
                             }
 
                             include 'login/conexion.php';
-                            if (empty($datos)) {
+                            if (!empty($datos)) {
                             } else {
                                 $datos = retornar_datos_usuario($_SESSION['usuario'], $conexion);
                                 if ($datos === 'administrador') {
@@ -192,17 +192,24 @@
                 <div class="heading">
                     <h2>Schedule<span></span></h2>
                     <div class="line"></div>
-                    <p>With over 35 seminars and 60 exhibits at this year’s Roux Academy CAC, there is truly something for every art student. Learn about color, light, and texture; see spray paint tagging in a new light, as a breath-taking 20 ft high graffiti wall is built before your very eyes over the course of the week; and rub paint brushes with some of the most talented artists in the world.</p>
+                    <p>With over 35 seminars and 60 exhibits at this year’s Roux Academy CAC, there is truly something
+                        for every art student. Learn about color, light, and texture; see spray paint tagging in a new
+                        light, as a breath-taking 20 ft high graffiti wall is built before your very eyes over the
+                        course of the week; and rub paint brushes with some of the most talented artists in the world.
+                    </p>
                 </div>
             </div>
             <div class="row">
                 <div class="features-sec">
                     <div class="col-md-4 col-sm-6 col-xs-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="0ms">
                         <div class="media service-box">
-                           
+
                             <div class="media-body">
                                 <h5 class="media-heading">Art in Full Color</h5>
-                                <p>The first day of CAC events and exhibits is kicked off under the theme of Art in Full Color From a demonstration in graffiti art on a wall of the Rousseau Room, to the exhibit of colorful glazed modern glassware in the Dover Hall, Art in Full Color will get CAC started in full swing!</p>
+                                <p>The first day of CAC events and exhibits is kicked off under the theme of Art in Full
+                                    Color From a demonstration in graffiti art on a wall of the Rousseau Room, to the
+                                    exhibit of colorful glazed modern glassware in the Dover Hall, Art in Full Color
+                                    will get CAC started in full swing!</p>
                             </div>
                         </div>
                     </div>
@@ -212,9 +219,13 @@
                         <div class="media service-box">
                             <div class="media-body">
                                 <h5 class="media-heading">Art in Unexpected Places</h5>
-                                <p>09:30-10:30am: 
-                                Elizabeth Hall
-                                Watch LaVonne L. LaRue, a Chicago graffiti artist share her love and skill of mural art on Monday’s schedule, as she starts the painting of a 20-foot high wall in the Rousseau Room of Hotel Contempo, which will be finished at the end of the conference. Make sure to show up a bit early, as this session will be standing-room only.</p>
+                                <p>09:30-10:30am:
+                                    Elizabeth Hall
+                                    Watch LaVonne L. LaRue, a Chicago graffiti artist share her love and skill of mural
+                                    art on Monday’s schedule, as she starts the painting of a 20-foot high wall in the
+                                    Rousseau Room of Hotel Contempo, which will be finished at the end of the
+                                    conference. Make sure to show up a bit early, as this session will be standing-room
+                                    only.</p>
                             </div>
                         </div>
                     </div>
@@ -224,9 +235,12 @@
                         <div class="media service-box">
                             <div class="media-body">
                                 <h5 class="media-heading">Art in Full Bloom</h5>
-                                <p>11:00am-1pm: 
-                                Victoria Hall
-                                Drawing and painting flowers may seem like a first-year art student’s assignment, but Constance Smith brings depth, shadows, light, and color to new heights with his unique technique of painting on canvas with ceramic glaze. This session is sure to be a hit with mixed media buffs.</p>
+                                <p>11:00am-1pm:
+                                    Victoria Hall
+                                    Drawing and painting flowers may seem like a first-year art student’s assignment,
+                                    but Constance Smith brings depth, shadows, light, and color to new heights with his
+                                    unique technique of painting on canvas with ceramic glaze. This session is sure to
+                                    be a hit with mixed media buffs.</p>
                             </div>
                         </div>
                     </div>
@@ -257,8 +271,7 @@
                 </li>
                 <li role="presentation"><a href="#tab-4" role="tab" data-toggle="tab"><i class="fa fa-bed"></i></a>
                 </li>
-                <li role="presentation"><a href="#tab-5" role="tab" data-toggle="tab"><i
-                            class="fa fa-bed"></i></a></li>
+                <li role="presentation"><a href="#tab-5" role="tab" data-toggle="tab"><i class="fa fa-bed"></i></a></li>
             </ul>
             <div class="tab-content">
                 <div role="tabpanel" class="tab-pane fade in active feat-sec" id="tab-1">
@@ -343,7 +356,7 @@
             </div>
         </div>
     </section>
-     <div class="bg-sec">
+    <div class="bg-sec">
 
     </div>
     <!--Portfolio-Section-Start-->
@@ -361,30 +374,33 @@
                     <li><a class="active" href="#" data-filter="*">Artist</a></li>
                     <li><a href="#" data-filter=".creative">Best Artist</a></li>
                     <li><a href="#" data-filter=".corporate">New Artist</a></li>
-                
+
                 </ul>
                 <!--/#portfolio-filter-->
             </div>
             <div class="portfolio-items">
                 <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item creative">
-                    <div class="portfolio-item-inner"> <img class="img-responsive" src="images/artists/Hillary_Goldwynn_tn.jpg" alt="">
-                        
+                    <div class="portfolio-item-inner"> <img class="img-responsive"
+                            src="images/artists/Hillary_Goldwynn_tn.jpg" alt="">
+
                     </div>
                 </div>
                 <!--/.portfolio-item-->
                 <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item creative">
-                    <div class="portfolio-item-inner"> <img class="img-responsive" src="images/artists/Xhou_Ta_tn.jpg" alt="">
-                       
+                    <div class="portfolio-item-inner"> <img class="img-responsive" src="images/artists/Xhou_Ta_tn.jpg"
+                            alt="">
+
                     </div>
                 </div>
 
                 <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item corporate portfolio">
-                    <div class="portfolio-item-inner"> <img class="img-responsive" src="images/artists/Barot_Bellingham_tn.jpg" alt="">
-                       
+                    <div class="portfolio-item-inner"> <img class="img-responsive"
+                            src="images/artists/Barot_Bellingham_tn.jpg" alt="">
+
                     </div>
                 </div>
 
-            
+
             </div>
         </div>
     </section>
@@ -469,7 +485,7 @@
             <li class="instagram hvr-pulse"><a href="#"><i class="fa fa-instagram"></i></a></li>
             <li class="behance hvr-pulse"><a href="#"><i class="fa fa-behance"></i></a></li>
         </ul>
-     
+
     </footer>
     <!--Jquery-->
     <script type="text/javascript" src="js/jquery.min.js"></script>

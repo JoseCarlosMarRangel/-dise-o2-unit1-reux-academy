@@ -43,12 +43,12 @@ if (isset($_POST['aceptar'])) {
     <div class="container">
         <div class="login-container">
             <div class="register">
-                <h2>Registrarse</h2>
+                <h2>Register</h2>
                 <form method="post" action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']) ?>">
-                    <input type="text" placeholder="Nombre" class="nombre" name="nombre">
-                    <input type="password" placeholder="Contraseña" class="pass" name="pass">
-                    <input type="password" placeholder="Confirma contraseña" class="repass" name="repass">
-                    <input type="submit" class="submit" value="REGISTRARSE" name="registrar">
+                    <input type="text" placeholder="name" class="nombre" name="nombre">
+                    <input type="password" placeholder="password" class="pass" name="pass">
+                    <input type="password" placeholder="password again" class="repass" name="repass">
+                    <input type="submit" class="submit" value="register" name="registrar">
                     <?php
 
 
@@ -76,11 +76,11 @@ if (isset($_POST['aceptar'])) {
             </div>
 
             <div class="login">
-                <h2>Iniciar Sesión</h2>
+                <h2>Sing in</h2>
                 <form method="post" action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']) ?>">
-                    <input type="text" placeholder="Nombre" class="nombre" name="nombre">
-                    <input type="password" placeholder="Contraseña" class="pass" name="pass">
-                    <input type="submit" class="submit" value="Entrar" name="aceptar">
+                    <input type="text" placeholder="name" class="nombre" name="nombre">
+                    <input type="password" placeholder="password" class="pass" name="pass">
+                    <input type="submit" class="submit" value="login" name="aceptar">
                     <?php
                     if (!$valido && isset($_POST['aceptar'])) {
                         echo '<p class="alerta" >Usuario no valido</p>';
@@ -88,7 +88,7 @@ if (isset($_POST['aceptar'])) {
                     ?>
                     <input class="submit" type="reset" value="cancel">
                 </form>
-                <input type="submit" class="submit" value="regresar" name="regresar"
+                <input type="submit" class="submit" value="return" name="regresar"
                     onclick="location.href='../index.php'">
 
             </div>
