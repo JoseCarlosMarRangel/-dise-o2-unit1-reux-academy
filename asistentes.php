@@ -45,12 +45,25 @@ $conexion = mysqli_connect($servidor, $usuario, $contrasena, $bd);
         ?>
         <tr>
             <td><?php echo $mostrar['id'] ?></td>
-        </tr>
-        <tr>    
+        
+           
             <td><?php echo $mostrar['usuario'] ?></td>
-        </tr>
-        <tr>
+        
+        
             <td><?php echo $mostrar['rol'] ?></td>
+
+        </tr>
+
+        <tr>
+            <td>Ejemplo</td>
+            <td>ejemplo</td>
+            <td>ejemplo</td>
+        </tr>
+
+         <tr>
+            <td>Ejemplo</td>
+            <td>ejemplo</td>
+            <td>ejemplo</td>
         </tr>
         <?php
         }
