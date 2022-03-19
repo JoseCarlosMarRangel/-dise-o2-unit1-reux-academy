@@ -20,10 +20,7 @@ if (isset($_POST['aceptar'])) {
     }
 }
 
-
-
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -78,7 +75,7 @@ if (isset($_POST['aceptar'])) {
             <div class="login">
                 <h2>Sing in</h2>
                 <form method="post" action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']) ?>">
-                    <input type="text" placeholder="name" class="nombre" name="nombre">
+                    <input type="text" placeholder="name" class="nombre" name="nombre" autofocus>
                     <input type="password" placeholder="password" class="pass" name="pass">
                     <input type="submit" class="submit" value="login" name="aceptar">
                     <?php
