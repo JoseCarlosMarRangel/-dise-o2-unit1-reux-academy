@@ -11,7 +11,7 @@
     <!--Bootstrap-->
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
     <!--Stylesheets-->
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link id="estilos" rel="stylesheet" type="text/css" href="css/style.css">
     <!--Responsive-->
     <link rel="stylesheet" type="text/css" href="css/responsive.css">
     <!--Animation-->
@@ -475,6 +475,18 @@
         </div>
     </footer>
     <footer id="footer-down">
+
+        <h2>Presentas daltonismo?, Cuál es tu tipo?</h2>
+
+        <script>
+        function cambiarcss() {
+            document.getElementById('estilos').href = "css/tritanopia.css";
+        }
+        </script>
+
+        <button onclick="cambiarcss()" class="" type="button">Tritanopia</button>
+
+
         <h2>Follow Us On</h2>
         <ul class="social-icon">
             <li class="facebook hvr-pulse"><a href="#"><i class="fa fa-facebook-f"></i></a></li>
@@ -485,6 +497,7 @@
             <li class="instagram hvr-pulse"><a href="#"><i class="fa fa-instagram"></i></a></li>
             <li class="behance hvr-pulse"><a href="#"><i class="fa fa-behance"></i></a></li>
         </ul>
+
 
     </footer>
     <!--Jquery-->

@@ -19,7 +19,8 @@ if (!$conexion) {
 function valida_usuario_bd($usuario, $contrasena, $conexion)
 {
     $crypt = md5($contrasena);
-    $query = "SELECT * FROM usuarios WHERE usuario = '$usuario' AND contrasena = '$crypt'";
+    $query = "SELECT * FROM usuarios WHERE 
+    usuario = '$usuario' AND contrasena = '$crypt'";
     //var_dump($query);
     $resultado = mysqli_query($conexion, $query) or die('Consulta fallida');
     $fila = $resultado->fetch_assoc();

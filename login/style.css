@@ -49,7 +49,7 @@
     border-left-style: none;
     border-right-style: none;
     border-bottom: 1px solid black;
-    color: red;
+    color: #92e731;
   }
    
   .register input:active,
@@ -61,7 +61,7 @@
     width: auto;
     padding: 10px;
     background: white;
-    color: red;
+    color: #92e731;
     font-size: 12px;
     box-shadow: 0 0 3px 0 rgba(0, 0, 0, .2);
     cursor: pointer;
@@ -69,7 +69,7 @@
 
    
   .login{
-    background-image: linear-gradient(to bottom right, #e73131, #e73131);
+    background-image: linear-gradient(to bottom right, #92e731, #92e731);
     padding: 40px;
   }
    
@@ -99,7 +99,7 @@
     width: auto;
     padding: 10px;
     background: white;
-    color: #e73131;
+    color: #92e731;
     font-size: 12px;
     box-shadow: 0 0 3px 0 rgba(0, 0, 0, .2);
     cursor: pointer;
