@@ -11,7 +11,7 @@
     <!--Bootstrap-->
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
     <!--Stylesheets-->
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link id="estilos" rel="stylesheet" type="text/css" href="css/style.css">
     <!--Responsive-->
     <link rel="stylesheet" type="text/css" href="css/responsive.css">
     <!--Animation-->
@@ -69,9 +69,12 @@
                             }
 
                             include 'login/conexion.php';
-                            $datos = retornar_datos_usuario($_SESSION['usuario'], $conexion);
-                            if ($datos === 'administrador') {
-                                echo '<li><a class="scroll" href="asistentes.php">Admin</a></li>';
+                            if (!empty($datos)) {
+                            } else {
+                                $datos = retornar_datos_usuario($_SESSION['usuario'], $conexion);
+                                if ($datos === 'administrador') {
+                                    echo '<li><a class="scroll" href="asistentes.php">Admin</a></li>';
+                                }
                             }
 
                             ?>
@@ -189,17 +192,24 @@
                 <div class="heading">
                     <h2>Schedule<span></span></h2>
                     <div class="line"></div>
-                    <p>With over 35 seminars and 60 exhibits at this year’s Roux Academy CAC, there is truly something for every art student. Learn about color, light, and texture; see spray paint tagging in a new light, as a breath-taking 20 ft high graffiti wall is built before your very eyes over the course of the week; and rub paint brushes with some of the most talented artists in the world.</p>
+                    <p>With over 35 seminars and 60 exhibits at this year’s Roux Academy CAC, there is truly something
+                        for every art student. Learn about color, light, and texture; see spray paint tagging in a new
+                        light, as a breath-taking 20 ft high graffiti wall is built before your very eyes over the
+                        course of the week; and rub paint brushes with some of the most talented artists in the world.
+                    </p>
                 </div>
             </div>
             <div class="row">
                 <div class="features-sec">
                     <div class="col-md-4 col-sm-6 col-xs-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="0ms">
                         <div class="media service-box">
-                           
+
                             <div class="media-body">
                                 <h5 class="media-heading">Art in Full Color</h5>
-                                <p>The first day of CAC events and exhibits is kicked off under the theme of Art in Full Color From a demonstration in graffiti art on a wall of the Rousseau Room, to the exhibit of colorful glazed modern glassware in the Dover Hall, Art in Full Color will get CAC started in full swing!</p>
+                                <p>The first day of CAC events and exhibits is kicked off under the theme of Art in Full
+                                    Color From a demonstration in graffiti art on a wall of the Rousseau Room, to the
+                                    exhibit of colorful glazed modern glassware in the Dover Hall, Art in Full Color
+                                    will get CAC started in full swing!</p>
                             </div>
                         </div>
                     </div>
@@ -209,9 +219,13 @@
                         <div class="media service-box">
                             <div class="media-body">
                                 <h5 class="media-heading">Art in Unexpected Places</h5>
-                                <p>09:30-10:30am: 
-                                Elizabeth Hall
-                                Watch LaVonne L. LaRue, a Chicago graffiti artist share her love and skill of mural art on Monday’s schedule, as she starts the painting of a 20-foot high wall in the Rousseau Room of Hotel Contempo, which will be finished at the end of the conference. Make sure to show up a bit early, as this session will be standing-room only.</p>
+                                <p>09:30-10:30am:
+                                    Elizabeth Hall
+                                    Watch LaVonne L. LaRue, a Chicago graffiti artist share her love and skill of mural
+                                    art on Monday’s schedule, as she starts the painting of a 20-foot high wall in the
+                                    Rousseau Room of Hotel Contempo, which will be finished at the end of the
+                                    conference. Make sure to show up a bit early, as this session will be standing-room
+                                    only.</p>
                             </div>
                         </div>
                     </div>
@@ -221,9 +235,12 @@
                         <div class="media service-box">
                             <div class="media-body">
                                 <h5 class="media-heading">Art in Full Bloom</h5>
-                                <p>11:00am-1pm: 
-                                Victoria Hall
-                                Drawing and painting flowers may seem like a first-year art student’s assignment, but Constance Smith brings depth, shadows, light, and color to new heights with his unique technique of painting on canvas with ceramic glaze. This session is sure to be a hit with mixed media buffs.</p>
+                                <p>11:00am-1pm:
+                                    Victoria Hall
+                                    Drawing and painting flowers may seem like a first-year art student’s assignment,
+                                    but Constance Smith brings depth, shadows, light, and color to new heights with his
+                                    unique technique of painting on canvas with ceramic glaze. This session is sure to
+                                    be a hit with mixed media buffs.</p>
                             </div>
                         </div>
                     </div>
@@ -254,8 +271,7 @@
                 </li>
                 <li role="presentation"><a href="#tab-4" role="tab" data-toggle="tab"><i class="fa fa-bed"></i></a>
                 </li>
-                <li role="presentation"><a href="#tab-5" role="tab" data-toggle="tab"><i
-                            class="fa fa-bed"></i></a></li>
+                <li role="presentation"><a href="#tab-5" role="tab" data-toggle="tab"><i class="fa fa-bed"></i></a></li>
             </ul>
             <div class="tab-content">
                 <div role="tabpanel" class="tab-pane fade in active feat-sec" id="tab-1">
@@ -340,7 +356,7 @@
             </div>
         </div>
     </section>
-     <div class="bg-sec">
+    <div class="bg-sec">
 
     </div>
     <!--Portfolio-Section-Start-->
@@ -358,96 +374,38 @@
                     <li><a class="active" href="#" data-filter="*">Artist</a></li>
                     <li><a href="#" data-filter=".creative">Best Artist</a></li>
                     <li><a href="#" data-filter=".corporate">New Artist</a></li>
-                
+
                 </ul>
                 <!--/#portfolio-filter-->
             </div>
             <div class="portfolio-items">
                 <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item creative">
-                    <div class="portfolio-item-inner"> <img class="img-responsive" src="images/artists/Hillary_Goldwynn_tn.jpg" alt="">
-                        
+                    <div class="portfolio-item-inner"> <img class="img-responsive"
+                            src="images/artists/Hillary_Goldwynn_tn.jpg" alt="">
+
                     </div>
                 </div>
                 <!--/.portfolio-item-->
                 <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item creative">
-                    <div class="portfolio-item-inner"> <img class="img-responsive" src="images/artists/Xhou_Ta_tn.jpg" alt="">
-                       
+                    <div class="portfolio-item-inner"> <img class="img-responsive" src="images/artists/Xhou_Ta_tn.jpg"
+                            alt="">
+
                     </div>
                 </div>
 
                 <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item corporate portfolio">
-                    <div class="portfolio-item-inner"> <img class="img-responsive" src="images/artists/Barot_Bellingham_tn.jpg" alt="">
-                       
+                    <div class="portfolio-item-inner"> <img class="img-responsive"
+                            src="images/artists/Barot_Bellingham_tn.jpg" alt="">
+
                     </div>
                 </div>
 
-            
+
             </div>
         </div>
     </section>
 
-    <!--Contact-Section-Start-->
-    <!--
-    <section id="contact">
-        <div class="container">
-            <div class="col-md-8 col-md-offset-2">
-                <div class="heading">
-                    <h2>CONTACT <span>US</span></h2>
-                    <div class="line"></div>
-                    <p><span><strong>L</strong></span>orem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                        eiusmod tempor incididunt ut
-                        et dolore magna aliqua. Ut enim ad minim veniam</p>
-                </div>
-            </div>
-            <div class="text-center">
-                <div class="col-md-6 col-sm-6 contact-sec-1">
-                    <h4>CONTACT IN<span>FO</span></h4>
-                    <ul class="contact-form">
-                        <li><i class="fa fa-map-marker"></i>
-                            <h6><strong>Address:</strong> No 123 , Wallstreet, India </h6>
-                        </li>
-                        <li><i class="fa fa-envelope"></i>
-                            <h6><strong>Mail Us:</strong> <a href="#">Info@yourdomain.com</a></h6>
-                        </li>
-                        <li><i class="fa fa-phone"></i>
-                            <h6><strong>Phone:</strong> +91 123-456-7890 </h6>
-                        </li>
-                        <li><i class="fa fa-wechat"></i>
-                            <h6><strong>Website:</strong> <a href="#">www.Cosmix.com</a> </h6>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-md-6 col-sm-6">
-                    <form id="main-contact-form" name="contact-form" method="post" action="#">
-                        <div class="row  wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
-                            <div class="col-sm-6">
-                                <div class="form-group">
-                                    <input type="text" name="name" class="form-control" placeholder="Name"
-                                        required="required">
-                                </div>
-                            </div>
-                            <div class="col-sm-6">
-                                <div class="form-group">
-                                    <input type="email" name="email" class="form-control" placeholder="Email Address"
-                                        required="required">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <input type="text" name="subject" class="form-control" placeholder="Subject"
-                                required="required">
-                        </div>
-                        <div class="form-group">
-                            <textarea name="message" id="message" class="form-control" rows="4"
-                                placeholder="Enter your message" required="required"></textarea>
-                        </div>
-                        <a class="btn-send col-md-12 col-sm-12 col-xs-12" href="#">Send Now</a>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </section>
-    -->
+
     <footer id="footer">
         <div class="bg-sec">
             <div class="container">
@@ -456,6 +414,26 @@
         </div>
     </footer>
     <footer id="footer-down">
+
+        <h2>Presentas daltonismo?, Cuál es tu tipo?</h2>
+
+        <!-- * Aqui van las funciones para cambiar de css de acuerdo a los tipos de daltonismo -->
+
+        <script>
+        function cambiarcss() {
+            document.getElementById('estilos').href = "css/tritanopia.css";
+        }
+
+        function normalcss() {
+            document.getElementById('estilos').href = "css/style.css";
+        }
+        </script>
+
+        <button onclick="cambiarcss()" class="" type="button">Protanopia</button>
+        <button onclick="normalcss()" class="" type="button">Normal</button>
+        
+
+
         <h2>Follow Us On</h2>
         <ul class="social-icon">
             <li class="facebook hvr-pulse"><a href="#"><i class="fa fa-facebook-f"></i></a></li>
@@ -466,7 +444,8 @@
             <li class="instagram hvr-pulse"><a href="#"><i class="fa fa-instagram"></i></a></li>
             <li class="behance hvr-pulse"><a href="#"><i class="fa fa-behance"></i></a></li>
         </ul>
-     
+
+
     </footer>
     <!--Jquery-->
     <script type="text/javascript" src="js/jquery.min.js"></script>
