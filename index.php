@@ -429,8 +429,8 @@
         }
         </script>
 
-        <button onclick="cambiarcss()" class="" type="button">Protanopia</button>
-        <button onclick="normalcss()" class="" type="button">Normal</button>
+        <button onclick="cambiarcss()" class="btn first" type="button">Protanopia</button>
+        <button onclick="normalcss()" class="btn first" type="button">Normal</button>
         
 
 
