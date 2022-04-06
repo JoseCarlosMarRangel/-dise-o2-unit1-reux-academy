@@ -432,6 +432,10 @@
         <button onclick="cambiarcss()" class="" type="button">Tritanopia</button>
         <button onclick="normalcss()" class="" type="button">Normal</button>
 
+        <button onclick="cambiarcss()" class="btn first" type="button">Protanopia</button>
+        <button onclick="normalcss()" class="btn first" type="button">Normal</button>
+
+
 
         <h2>Follow Us On</h2>
         <ul class="social-icon">
