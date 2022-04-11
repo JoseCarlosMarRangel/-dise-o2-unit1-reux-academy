@@ -1,3 +1,4 @@
+
 /*
 	Cosmix by TEMPLATE STOCK
 	templatestock.co @templatestock
@@ -26,24 +27,24 @@ body {
 }
 /*for-section-text-start-here*/
 ::selection {
- background: #3deb34; /* WebKit/Blink Browsers */
+ background: #92e731; /* WebKit/Blink Browsers */
  color:#fff;
 }
 ::-webkit-selection {
-/*background-color: #3deb34;*/
-background-color: #3deb34;
+/*background-color: #92e731;*/
+background-color: #92e731;
 color: #FFF;
 }
 ::-ms-selection {
-background-color:#3deb34;
+background-color:#92e731;
 color: #FFF;
 }
 ::-o-selection {
-background-color: #3deb34;
+background-color: #92e731;
 color: #FFF;
 }
 ::-moz-selection {
-background-color: #3deb34;
+background-color: #92e731;
 color: #FFF;
 }
 /* ========================================================================
@@ -166,13 +167,13 @@ strong {
 	font-weight:bolder;
 }
 span {
-	color:#3deb34;
+	color:#92e731;
 }
 .space {
 	margin:30px 0px;
 }
 .line {
-	border:1px solid #3deb34;
+	border:1px solid #92e731;
 	width:15%;
 }
 a:hover, a:focus {
@@ -190,7 +191,7 @@ a.btn-down {
 }
 a.btn-down:hover {
 	background:#fff;
-	color:#3deb34;
+	color:#92e731;
 	transition:all 0.5s;
 	-moz-transition: all 0.5s;
 	-o-transition: all 0.5s;
@@ -199,15 +200,15 @@ a.btn-down:hover {
 a.btn-order {
 	height: 50px;
 	width: 50px;
-	color: #3deb34;
-	border: 2px solid #3deb34;
+	color: #92e731;
+	border: 2px solid #92e731;
 	padding: 3% 5%;
 	font-size: 15px;
 	position: relative;
 	top: 5px;
 }
 a.btn-order:hover {
-	background:#3deb34;
+	background:#92e731;
 	color:#fff;
 	transition:all 0.5s;
 	-moz-transition: all 0.5s;
@@ -215,13 +216,13 @@ a.btn-order:hover {
 	-webkit-transition: all 0.5s;
 }
 a.btn-send {
-	color:#3deb34;
-	border: 2px solid #3deb34;
+	color:#92e731;
+	border: 2px solid #92e731;
 	padding: 2% 0%;
 	font-size: 15px;
 }
 a.btn-send:hover {
-	background:#3deb34;
+	background:#92e731;
 	color:#fff;
 	transition:all 0.5s;
 	-moz-transition: all 0.5s;
@@ -254,11 +255,11 @@ a.navbar-brand img {
 	color: #fff;
 }
 #menu ul.nav li a:hover, #menu ul.nav li a.active {
-	color:#3deb34;
+	color:#92e731;
 	transition:all 0.4s;
 }
 #menu .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-	color:#3deb34;
+	color:#92e731;
 	background:transparent;
 }
 a.navbar-brand {
@@ -326,7 +327,7 @@ ul.nav li.active a:before {
 	line-height:27px;
 }
 .home-carousel-left, .home-carousel-right {
-	background-color: #3deb34;
+	background-color: #92e731;
 	color:#fff;
 	font-size: 32px;
 	height: 40px;
@@ -422,7 +423,7 @@ ul.nav li.active a:before {
 }
 /*Background-stylesheets-include-here*/
 .bg-sec {
-	background:#3deb34;
+	background:#92e731;
 	margin-top:10px;
 	padding: 1% 0%;
 }
@@ -461,13 +462,13 @@ ul.nav li.active a:before {
 	text-align: center;
 	width: 64px;
 	border-radius: 100%;
-	color: #3deb34;
+	color: #92e731;
 	border:1px solid #d7d7d7;
 	transition: background-color 400ms, background-color 400ms;
 	position: relative;
 }
 .media.service-box:hover .pull-left > i {
-	background:#3deb34;
+	background:#92e731;
 	color:#fff;
 	transform:rotateY(360deg);
 	-moz-transform:rotate(360deg);
@@ -504,7 +505,7 @@ ul.nav li.active a:before {
 	padding-right: 12px;
 	font-size: 12px;
 	font-weight: 600;
-	background:#3deb34;
+	background:#92e731;
 }
 .progress .progress-bar.six-sec-ease-in-out {
 	-webkit-transition: width 2s ease-in-out;
@@ -529,7 +530,7 @@ ul.nav li.active a:before {
 }
 #features .nav-tabs > li.active > a, #features .nav-tabs > li.active > a:hover, #features .nav-tabs > li.active > a:focus {
 	box-shadow: 0 1px 4px rgba(0, 0, 0, .26);
-	border-bottom:2px solid #3deb34;
+	border-bottom:2px solid #92e731;
 	background:#f8f8f8;
 }
 #features .nav-tabs > li > a {
@@ -550,7 +551,7 @@ ul.nav li.active a:before {
 	font-size:25px;
 }
 #features .nav-tabs > li.active > a i.fa {
-	color:#3deb34;
+	color:#92e731;
 }
 #features .nav-tabs > li > a:hover {
 	border-color:transparent;
@@ -600,7 +601,7 @@ ul.nav li.active a:before {
 	position: relative;
 }
 #portfolio .portfolio-filter > li a:hover, #portfolio .portfolio-filter > li a.active {
-	background: #3deb34;
+	background: #92e731;
 	color: #fff;
 	-webkit-transition-duration: 0.5s;
 	-moz-transition-duration: 0.5s;
@@ -620,7 +621,7 @@ ul.nav li.active a:before {
 	margin-left: -10px;
 	border-width: 10px;
 	border-style: solid;
-	border-color: #3deb34 transparent transparent transparent;
+	border-color: #92e731 transparent transparent transparent;
 }
 #portfolio .portfolio-filter > li:first-child a {
 	border-radius: 4px 0 0 4px;
@@ -657,7 +658,7 @@ ul.nav li.active a:before {
 }
 #portfolio .portfolio-item:hover .portfolio-info i.fa {
 	font-size:30px;
-	color:#3deb34;
+	color:#92e731;
 }
 /* Start: Recommended Isotope styles */
 /**** Isotope Filtering ****/
@@ -748,9 +749,9 @@ ul.nav li.active a:before {
 	display: inline-block;
 	width: 116px;
 	height: 116px;
-	background-image: -moz-linear-gradient(90deg, #3deb34 0%, #3deb34 100%);
-	background-image: -webkit-linear-gradient(90deg, #3deb34 0%, #3deb34 100%);
-	background-image: -ms-linear-gradient(90deg, #3deb34 0%, #3deb34 100%);
+	background-image: -moz-linear-gradient(90deg, #92e731 0%, #92e731 100%);
+	background-image: -webkit-linear-gradient(90deg, #92e731 0%, #92e731 100%);
+	background-image: -ms-linear-gradient(90deg, #92e731 0%, #92e731 100%);
 	color: #fff;
 	border-radius: 100px;
 	border: 5px solid #f6f6f6;
@@ -814,7 +815,7 @@ ul.nav li.active a:before {
 	transition-duration: 0.3s;
 }
 .team-main-sec:hover h5 {
-	color:#3deb34;
+	color:#92e731;
 }
 .team-sec h5 {
 	color:#555;
@@ -853,7 +854,7 @@ ul.nav li.active a:before {
 	text-align:center;
 }
 #testimonials .owl-theme .owl-controls .owl-page span{
-background:#3deb34;
+background:#92e731;
 }
 .quote {
 	position:relative;
@@ -922,7 +923,7 @@ background:#3deb34;
 	float:left;
 }
 .blog-info h6:hover, .blog-info h5:hover {
-	color:#3deb34;
+	color:#92e731;
 	-webkit-transition-duration: 0.3s;
 	-moz-transition-duration: 0.3s;
 	-ms-transition-duration: 0.3s;
@@ -948,7 +949,7 @@ a.btn-blg {
 	color:#666;
 }
 a.btn-blg:hover {
-	color:#3deb34;
+	color:#92e731;
 	-webkit-transition-duration: 0.3s;
 	-moz-transition-duration: 0.3s;
 	-ms-transition-duration: 0.3s;
@@ -1021,7 +1022,7 @@ a.btn-blg:hover {
 	color:#666;
 }
 .contact-sec-1 ul li a:hover {
-	color:#3deb34;
+	color:#92e731;
 	-webkit-transition-duration: 0.3s;
 	-moz-transition-duration: 0.3s;
 	-ms-transition-duration: 0.3s;
@@ -1116,7 +1117,7 @@ textarea.form-control {
 
 /*Full-screen-menu-stylesheet-include-here*/
 .top-animate {
-  background: #3deb34 !important;
+  background: #92e731 !important;
   top: 13px !important;
   -webkit-transform: rotate(45deg);
   /* Chrome, Safari, Opera */
@@ -1126,7 +1127,7 @@ textarea.form-control {
   opacity: 0;
 }
 .bottom-animate {
-  background: #3deb34 !important;
+  background: #92e731 !important;
   top: 13px !important;
   -webkit-transform: rotate(-225deg);
   /* Chrome, Safari, Opera */
@@ -1150,7 +1151,7 @@ textarea.form-control {
   top: 21px;
 }
 .menui {
-  background: #3deb34;
+  background: #92e731;
   transition: 0.6s ease;
   transition-timing-function: cubic-bezier(0.75, 0, 0.29, 1.01);
   margin-top: 10px;
@@ -1285,15 +1286,15 @@ padding-top:15px;
 a.btn-learn {
 	height: 50px;
 	width: 50px;
-	color: #3deb34;
-	border: 2px solid #3deb34;
+	color: #92e731;
+	border: 2px solid #92e731;
 	padding: 1% 2%;
 	font-size: 15px;
 	position: relative;
 	top: 40px;
 }
 a.btn-learn:hover {
-	background:#3deb34;
+	background:#92e731;
 	color:#fff;
 	transition:all 0.5s;
 	-moz-transition: all 0.5s;
@@ -1367,9 +1368,6 @@ color:#fff;
 	margin-top:10px;
 	border-radius:5px;
 	box-shadow:0px 0px 10px 0px #ccc;
-<<<<<<< HEAD
-}
-=======
 }
 
 
@@ -1417,6 +1415,3 @@ color:#fff;
 .first:hover {
   box-shadow: 0 0 40px 40px #84FF84 inset;
 }
-
-
->>>>>>> 621fd69868aa091ce0e6a09e9a3f9168d9893fb1
